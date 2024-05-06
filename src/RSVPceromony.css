@@ -1,0 +1,98 @@
+
+.invitation-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.invitation-form h2 {
+    font-size: 160px;
+    color: #333;
+}
+
+.invitation-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.invitation-form input[type="text"],
+.invitation-form input[type="number"],
+.invitation-form input[type="radio"] {
+    margin-top: 5px;
+}
+
+.invitation-form .radio-buttons label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.invitation-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for the container that holds the form */
+.invitation-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background: url('RSVP.jpeg') no-repeat center center fixed; /* Adjust as needed */
+    background-size: cover; /* Cover the entire viewport */
+}
+
+/* Styles for the form itself */
+.invitation-form {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px; /* Maximum width of the form */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow for better visibility */
+}
+
+/* Heading style */
+.invitation-form h2 {
+    font-size: 16px;
+    color: #333;
+    text-align: center; /* Center align the heading text */
+}
+
+/* General label styling */
+.invitation-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Input styling */
+.invitation-form input[type="text"],
+.invitation-form input[type="number"],
+.invitation-form input[type="radio"] {
+    margin-top: 5px;
+    width: 100%; /* Make input take full width of the form */
+}
+
+/* Styling for radio buttons grouping */
+.invitation-form .radio-buttons label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Button styling */
+.invitation-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
